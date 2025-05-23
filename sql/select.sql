@@ -65,7 +65,7 @@ explain analyze select
     cre.student_id, 
     stb.student_name
 from
-	class_register_tb c re
+	class_register_tb cre
     join student_tb stb on (stb.student_id = cre.student_id)
     join class_tb ctb on (ctb.class_id = cre.class_id)
 where
