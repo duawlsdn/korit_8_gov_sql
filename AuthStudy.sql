@@ -1,0 +1,1 @@
+SELECT * FROM auth_study_db.users_tb;
